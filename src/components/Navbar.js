@@ -11,34 +11,48 @@ import {
 export default function Navbar() {
 	return (
 		<div className="h-screen w-80 bg-black px-6 pt-6">
-			<div className="h-10 w-full max-w-[131px]">
+			<div className="h-10 w-full max-w-[131px] mb-7">
 				<img alt="logo" src={logo} />
 			</div>
-			<div>
-				<ul className="flex flex-col">
-					<li alt="" className="flex">
-						<MdHomeFilled className="text-light_grey" />
-						<span className="text-light_grey">Home</span>
+			<div className="mb-7">
+				<ul className="flex flex-col gap-y-2">
+					<li alt="" className="flex justify-start items-center">
+						<MdHomeFilled className="text-light_grey mr-2 text-3xl" />
+						<span className="text-light_grey ml-1 text-xs font-semibold">
+							Home
+						</span>
 					</li>
-					<li alt="" className="flex">
-						<MdSearch className="text-light_grey" />
-						<span className="text-light_grey">Search</span>
+					<li alt="" className="flex justify-start items-center">
+						<MdSearch className="text-light_grey mr-2 text-3xl" />
+						<span className="text-light_grey ml-1 text-xs font-semibold">
+							Search
+						</span>
 					</li>
-					<li alt="" className="flex">
-						<MdLibraryMusic className="text-light_grey" />
-						<span className="text-light_grey">Your Library</span>
+					<li alt="" className="flex justify-start items-center">
+						<MdLibraryMusic className="text-light_grey mr-2 text-3xl" />
+						<span className="text-light_grey ml-1 text-xs font-semibold">
+							Your Library
+						</span>
 					</li>
 				</ul>
 			</div>
 			<div>
-				<ul>
-					<li alt="" className="flex">
-						<MdAdd className="bg-light_grey" />
-						<span className="text-light_grey">Create Playlist</span>
+				<ul className="flex flex-col gap-y-2">
+					<li alt="" className="flex justify-start items-center">
+						<div className="bg-light_grey mr-2 p-1">
+							<MdAdd className="bg-light_grey text-lg" />
+						</div>
+						<span className="text-light_grey ml-1 text-xs font-semibold">
+							Create Playlist
+						</span>
 					</li>
-					<li alt="" className="flex">
-						<MdOutlineFavoriteBorder className="bg-light_grey" />
-						<span className="text-light_grey">Liked Songs</span>
+					<li alt="" className="flex justify-start items-center">
+						<div className="bg-light_grey mr-2 p-1">
+							<MdOutlineFavoriteBorder className="bg-light_grey  text-lg" />
+						</div>
+						<span className="text-light_grey ml-1 text-xs font-semibold">
+							Liked Songs
+						</span>
 					</li>
 				</ul>
 			</div>
