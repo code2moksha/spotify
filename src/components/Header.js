@@ -3,18 +3,22 @@ import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 
 const Header = () => {
 	return (
-		<div className="bg-light_black col-start-2 col-span-4 flex justify-between items-center">
-			<div>
-				<button>
-					<MdKeyboardArrowLeft />
+		<div className="bg-light_black col-start-2 col-span-4 flex justify-between items-center px-8 py-4 ">
+			<div className="flex gap-x-4">
+				<button className="h-9 w-9 border rounded-full bg-black">
+					<MdKeyboardArrowLeft className="w-8 h-8 text-light_grey" />
 				</button>
-				<button>
-					<MdKeyboardArrowRight />
+				<button className="h-9 w-9 border rounded-full bg-black">
+					<MdKeyboardArrowRight className="w-8 h-8 text-light_grey" />
 				</button>
 			</div>
-			<div>
-				<button>Sign up</button>
-				<button>Log in</button>
+			<div className="flex justify-center items-center">
+				<button className="bg-transparent self-center pl-4 pr-7 w-32 h-11 text-light_grey hover:cursor-default hover:text-white hover:font-semibold">
+					Sign up
+				</button>
+				<button className="bg-white self-center text-black pl-5 pr-7 w-28 h-11 hover:scale-105 hover:bg-shadow_grey hover:cursor-default border rounded-full">
+					Log in
+				</button>
 			</div>
 		</div>
 	);
