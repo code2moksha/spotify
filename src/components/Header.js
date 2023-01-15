@@ -16,7 +16,7 @@ const Header = () => {
 				<button className="bg-transparent self-center pl-4 pr-7 w-32 h-11 text-light_grey hover:cursor-default hover:text-white hover:font-semibold">
 					Sign up
 				</button>
-				<button className="bg-white self-center text-black pl-5 pr-7 w-28 h-11 hover:scale-105 hover:bg-shadow_grey hover:cursor-default border rounded-full">
+				<button className="bg-white self-center text-sm font-semibold text-black pl-6 pr-7 w-24 h-11 hover:scale-105 hover:bg-shadow_grey hover:cursor-default border rounded-full">
 					Log in
 				</button>
 			</div>
