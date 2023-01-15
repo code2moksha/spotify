@@ -9,7 +9,14 @@ module.exports = {
 			white: "#fff",
 			light_grey: "#a7a7a7",
 		},
-		extend: {},
+		extend: {
+			gridTemplateColumns: {
+				main: "290px minmax(0, 1fr)",
+			},
+			gridTemplateRows: {
+				main: "64px minmax(0, 1fr)",
+			},
+		},
 	},
 	plugins: [],
 };
