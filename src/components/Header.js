@@ -3,7 +3,7 @@ import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 
 const Header = () => {
 	return (
-		<div className="bg-light_black col-start-2 col-span-4 flex justify-between items-center px-8 py-4 ">
+		<div className=" sticky bg-med_black col-start-2 col-span-4 flex justify-between items-center px-8 py-4 ">
 			<div className="flex gap-x-4">
 				<button className="h-9 w-9 border rounded-full bg-black">
 					<MdKeyboardArrowLeft className="w-8 h-8 text-light_grey" />
