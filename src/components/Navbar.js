@@ -11,7 +11,7 @@ import {
 
 export default function Navbar() {
 	return (
-		<div className="h-screen bg-black px-6 pt-6 flex flex-col justify-between">
+		<div className="h-screen sticky top-0 left-0 bg-black px-6 pt-6 flex flex-col justify-between">
 			<div className=" ">
 				<div className="h-10 max-w-[131px] mb-7">
 					<img alt="logo" src={logo} />
