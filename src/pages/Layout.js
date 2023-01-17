@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+
 import Navbar from "../components/Navbar";
 
 const Layout = ({ children }) => {
@@ -7,7 +7,6 @@ const Layout = ({ children }) => {
 		// <div className="grid grid-rows-2 grid-cols-4">
 		<div className="grid grid-cols-main">
 			<Navbar />
-			{/* <Header /> */}
 			{children}
 		</div>
 	);
