@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 export function Home() {
 	return (
-		<div className="">
+		<div className="bg-med_black">
 			<Header />
 			<div className="col-start-2 col-span-4 overflow-y-scroll">
 				<div className="text-white ">Home</div>
