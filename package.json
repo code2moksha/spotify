@@ -14,8 +14,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "copyImages": "cp -r ./src/songs/*.jpeg public/",
+    "prestart": "npm run copyImages",
     "start": "PORT=5000 react-scripts start",
     "build": "react-scripts build",
+    "prebuild": "npm run copyImages",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

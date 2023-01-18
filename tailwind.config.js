@@ -14,6 +14,7 @@ module.exports = {
 		extend: {
 			gridTemplateColumns: {
 				main: "290px minmax(0, 1fr)",
+				musicCard: "repeat(5,minmax(200px,1fr))",
 			},
 			gridTemplateRows: {
 				main: "64px minmax(0, 1fr)",

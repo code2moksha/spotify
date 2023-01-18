@@ -1,0 +1,42 @@
+[
+  {
+      "id": "1",
+      "title": "Peaceful Piano",
+      "category": "Focus",
+      "description": "Relax and indulge with beautiful piano pieces",
+      "type": "Playlist",
+      "path": "./piano.jpeg"
+  },
+  {
+      "id": "2",
+      "title": "Deep focus",
+      "category": "Focus",
+      "description": "Keep calm and focus with ambient and post-rock music.",
+      "type": "Playlist",
+      "path": "./night.jpeg"
+  },
+  {
+    "id": "3",
+    "title": "Instrumental Study",
+    "category": "Focus",
+    "description": "Focus with soft study music in the background.",
+    "type": "Playlist",
+    "path": "./instrumental.jpeg"
+},
+{
+    "id": "4",
+    "title": "chill lofi study beats",
+    "category": "Focus",
+    "description": "The perfect study beats. Find your focus, crush your productivity.",
+    "type": "Playlist",
+    "path": "./chill.jpeg"
+},
+{
+  "id": "5",
+  "title": "Jazz Vibes",
+  "category": "Focus",
+  "description": "The original chill instrumental beats playlist.",
+  "type": "Playlist",
+  "path": "./jazz.jpeg"
+}
+]
