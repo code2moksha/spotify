@@ -5,11 +5,14 @@ module.exports = {
 		colors: {
 			transparent: "transparent",
 			black: "#000",
+			card_black: "#181818",
 			med_black: "#121212",
 			light_black: "#333",
 			white: "#fff",
 			light_grey: "#a7a7a7",
 			shadow_grey: "#FBFAFA",
+			select_grey: "#282828",
+			decorative_green: "#1ed760",
 		},
 		extend: {
 			gridTemplateColumns: {
@@ -19,7 +22,10 @@ module.exports = {
 			gridTemplateRows: {
 				main: "64px minmax(0, 1fr)",
 			},
+			fontFamily: {
+				opensans: ["Open Sans", "sans-serif"],
+			},
 		},
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/line-clamp")],
 };
