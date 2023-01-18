@@ -16,7 +16,7 @@ function MusicCard() {
 				>
 					<div class="relative">
 						<img src={record.path} alt="music" className="rounded mb-4" />
-						{isShown && (
+						{isShown === record.id && (
 							<div class="absolute right-2 top-28">
 								<button className="w-12 h-12 bg-decorative_green rounded-full">
 									<img
